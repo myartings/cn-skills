@@ -1,0 +1,47 @@
+{
+  "name": "cn-skills",
+  "owner": {
+    "name": "myartings"
+  },
+  "metadata": {
+    "description": "中文平台 Skill 合集：豆瓣、知乎、V2EX、即刻、微信公众号",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "douban",
+      "source": { "source": "github", "repo": "myartings/doubanskill" },
+      "description": "豆瓣搜索助手：搜索电影/图书/音乐、查看详情和评论",
+      "version": "1.0.0",
+      "keywords": ["douban", "豆瓣", "电影", "图书"]
+    },
+    {
+      "name": "zhihu",
+      "source": { "source": "github", "repo": "myartings/zhihuskill" },
+      "description": "知乎搜索助手：搜索问答/文章、查看热榜、阅读全文",
+      "version": "1.0.0",
+      "keywords": ["zhihu", "知乎", "热榜"]
+    },
+    {
+      "name": "v2ex",
+      "source": { "source": "github", "repo": "myartings/v2exskill" },
+      "description": "V2EX 社区助手：搜索主题、浏览热门、查看回复",
+      "version": "1.0.0",
+      "keywords": ["v2ex", "V站", "技术社区"]
+    },
+    {
+      "name": "jike",
+      "source": { "source": "github", "repo": "myartings/jikeskill" },
+      "description": "即刻社交平台助手：浏览动态、搜索、发帖、互动",
+      "version": "1.0.0",
+      "keywords": ["jike", "即刻", "okjike"]
+    },
+    {
+      "name": "wechat",
+      "source": { "source": "github", "repo": "myartings/wechatskill" },
+      "description": "微信公众号文章搜索助手：搜索文章、获取全文",
+      "version": "1.0.0",
+      "keywords": ["wechat", "微信", "公众号"]
+    }
+  ]
+}
